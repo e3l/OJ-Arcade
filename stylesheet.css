@@ -2,6 +2,7 @@ body{
     height: 100%;
     width: 100%;
     margin: 0 0 0 0;
+    background-color: white;
 }
 
 #menu {
@@ -42,7 +43,7 @@ body{
 
 .w3-bar-item {
     font-weight: 100 !important;
-    
+
 }
 
 #menuwrapper {
@@ -67,12 +68,12 @@ body{
     transition-duration: .4s;
 }
 
-#band {
+#intromain {
     padding-top: 100px !important;
     margin: 0 0 0 0;
     width: 100%;
     background-color: #FF8400;
-    height: 910px;
+    height: 850px;
 }
 
 #introcontainer {
@@ -99,7 +100,7 @@ body{
     background-color: #FFC800;
     border-radius: 5px;
     color: white;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-bottom: 40px;
 }
 
@@ -107,10 +108,222 @@ body{
     padding-top: 100px;
     background-color: #81C94C;
     width: 60%;
-    height: 200px;
+    height: 350px !important;
     margin: auto;
 }
 
-#learnmorep {
+.learnmoretxt {
     vertical-align: middle;
+    line-height: 0px;
+    font-size: 50px;
+    margin-top: -30px;
+    font-family: "Questrial" !important;
+}
+
+#learnmorebr {
+    font-size: 100px;
+    display: block;
+    margin-top: 100px;
+    content: " ";
+}
+
+#learnmorego {
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
+    background-color: #FFC800;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.scheduletxt1 {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 30px;
+    color: #248D6C;
+    font-weight: 600;
+}
+
+.scheduletxt {
+    text-align: center;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    color: #5040ae;
+    font-weight: 600;
+}
+
+#openorclosed {
+    font-weight: 900;
+}
+
+#schedulebr {
+    display: block;
+    margin-top: 50px;
+    content: "";
+}
+
+#address {
+    color: #a85f2e;
+}
+
+#newscontainer {
+    margin: auto;
+    width: 1000px;
+    height: 325px;
+}
+
+.news {
+    background-color: #FAFAFA;
+    border: 1px solid #E0E0E0;
+    width: 450px;
+    height: 325px;
+    text-align: center;
+    font-size: 36px;
+    font-family: "Bree Serif";
+    font-weight: normal;
+}
+
+#paweekly {
+    float: left;
+}
+
+.newstxt {
+    margin-top: 80px !important;
+    font-size: 20px;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+.newslink {
+    color: #FFC800;
+    width: 450px;
+    text-align: center;
+    margin: auto;
+}
+
+#nbcbayarea {
+    float: right;
+}
+
+#nbcbayarea > p {
+    margin-top: 40px;
+}
+
+#newshr {
+    color: #DEDEDE;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+}
+
+#roadblasters {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#roadblasters > p {
+    font-family: "Bree-Serif" !important;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#roadblasters > p:nth-child(1) {
+    color: #7ED900;
+}
+
+#roadblasters > p:nth-child(2) {
+    color: #FF0000;
+}
+
+#roadblasters > p:nth-child(3) {
+    color: #3387A2;
+    font-size: 30px;
+}
+
+#roadblastersbtn {
+    background-color: #CCCBC6;
+    border-radius: 5px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    vertical-align: middle;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+#storeinfo {
+    height: 200px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    padding-top: 90px;
+    overflow: auto;
+}
+
+#storeinfo > p {
+    width: 500px;
+    float: left;
+    font-size: 40px;
+    font-family: "Bree-Serif";
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+
+#storeinfo > a {
+    background-color: #FFC800;
+    margin: 0;
+    width: 150px;
+    height: 50px;
+    float: right;
+    vertical-align: middle;
+    line-height: 35px;
+    border-radius: 6px;
+    margin-top: 30px;
+    color: white;
+    letter-spacing: 1.6px;
+    font-size: 16px;
+}
+
+#multicade {
+    width: 50%;
+    margin: auto;
+    color: #24678D;
+    font-size: 40px;
+    font-family: "Bree Serif";
+    text-align: center;
+    padding-top: 70px;
+}
+
+#ffg {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#ffg > font {
+    font-size: 50px;
+    font-family: "Bree-Serif" !important;
+    color: #5FA233;
+    font-weight: 900;
+    margin: 0;
+}
+
+#googleMap {
+    height: 800px !important;
+    margin-top: 100px;
+}
+
+#copyright {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: grey;
+    text-align: center;
 }
